@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+
+.table {
+	
+   position:absolute;
+   font-family: 'Noto Sans KR', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   top: 150px;
+   left: 150px;
+}
+
+#commenttable {
+   position: absolute;
+   left: 950px;
+   top: 300px;
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 18px;
+}
+
+.insert {
+   font-family: 'Noto Sans KR', sans-serif;
+   position:absolute;
+   top: 230px;
+   left: 950px;
+   font-size:18px;
+}
+
+
+.putter {
+   position: absolute;
+   top: 160px;   
+   left: 940px;
+}

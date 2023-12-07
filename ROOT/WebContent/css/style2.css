@@ -1,0 +1,234 @@
+.total_warp {
+    font-size:20px;
+    font-weight: bold;
+    color: #333333;
+    
+}
+
+.section {
+	display:block;
+}
+
+.summaryall {
+	position: absolute;
+	top:4rem;
+	left:9rem;
+}
+
+.introduction {
+	position: absolute;
+	width: 420px;
+	top:15rem;
+	left:33rem;
+  line-height: 50px;
+}
+
+.boxcontrol {
+	position: absolute;
+	width : 400px;
+	height : 700px;
+	top: 55rem;
+	right: 20rem;
+}
+.posterBoxImage {
+	position: absolute;
+    top: 2rem;
+    left: 0;
+    background: #000;
+    width: 482px;
+    height: 482px;
+    border-radius: 10px;
+}
+.posterDetailImage {
+	position: absolute;
+	top: 37rem;
+    left: 0;
+    width: 482px;
+    height: 100%auto;
+    border-radius: 10px;
+}
+.posterBoxBottom {
+	position: absolute;
+	top: -2rem;
+    left: 0;
+    width: 482px;
+    height: 100%auto;
+    border-radius: 10px;
+}
+
+.exTitle2 {
+	position: absolute;
+	top: 35rem;
+    left: 1rem;
+    width: 482px;
+}
+
+.button1{
+    display: block;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 17rem;
+    left: 5rem;
+    line-height: 50px;
+    text-align: center;
+    background: #ff4b4b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.price_wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.remove_ticket,
+.add_ticket {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.select_quanatity {
+  margin: 0 10px;
+}
+.num_select {
+	position : absolute;
+  width:100%;
+  bottom:79%;
+  right:0rem;
+}
+
+.select_item {
+    margin-top: 10px;
+    padding: 15px 0 10px 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.selectBox {
+  display: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 13px 15px 15px 15px;
+}
+
+
+
+.selectBox .selectbox_title {
+	
+  font-size: 14px;
+  color: #777;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.selectBox .time_btn,
+.selectBox .title1_btn,
+.selectBox .title2_btn {
+  margin-top: 5px;
+  background: #f6f6f6;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #167e56;
+  color: #00ff40;
+  border-radius: 50%;
+}
+
+.reservationMain{
+	position: absolute;
+	width: 117rem;
+	height: 110rem;
+    margin-top: 2rem;
+    margin-bottom: 9.8rem;
+    margin-left: 1rem;  
+    top : 12rem;
+    left : 5rem;  
+}
+
+
+.title2_select {
+  bottom: 0;
+  right: 0;
+  transform: translateY(-200%);  
+}
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.custom_calendar_table {
+   width: 25rem;
+  height: 25rem;
+  position: absolute;
+  bottom: 0;
+  top: 4rem; /* 우측 상단으로부터의 거리를 조정 */
+  right: 20rem; /* 우측 상단으로부터의 거리를 조정 */
+  
+}
+.custom_calendar_table td {
+    text-align: center;
+}
+
+.custom_calendar_table td {
+  font-size: 1rem; /* 원하는 글자 크기로 조정 */
+}
+
+.custom_calendar_table thead.cal_date th {
+    font-size: 1.5rem;
+}
+
+.custom_calendar_table thead.cal_date th button {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+}
+
+.custom_calendar_table thead.cal_week th {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.custom_calendar_table tbody td {
+    cursor: pointer;
+}
+
+.custom_calendar_table tbody td:nth-child(1) {
+    color: #000000;
+}
+
+.custom_calendar_table tbody td:nth-child(7) {
+    color: #000000;
+}
+
+.custom_calendar_table tbody td.select_day {
+    background-color: #288CFF;
+    color: #fff;
+}

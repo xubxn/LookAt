@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+.summaryTop {
+	position:absolute;	
+}
+
+.total_wrap {
+    position: absolute;
+    bottom: 9rem;
+    font-size: 20px;
+}
+
+.submit_btn {
+    position: absolute;
+    left: 0rem;
+    bottom: 5rem;
+    width: 113px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+      text-decoration-line: none;
+    
+}
+
+.section {
+	display:block;
+}
+
+.introduction {
+    position: absolute;
+    width: 415px;
+    top: 5rem;
+    left: 32rem;
+    line-height: 50px;	
+    
+}
+
+.introduction {
+	position: absolute;
+	width: 482px;
+	top:15rem;
+	left:33rem;
+
+}
+
+.boxcontrol {
+	position: absolute;
+	width : 400px;
+	height : 700px;
+	top: 6rem;
+	right: 20rem;
+}
+.posterBoxImage {
+	position: absolute;
+    top: 3rem;
+    left: 0;
+    background: #000;
+    width: 482px;
+    height: 482px;
+    border-radius: 10px;
+}
+.posterDetailImage {
+    position: absolute;
+    top: 41rem;
+    left: 0;
+    width: 482px;
+    height: 100%auto;
+    border-radius: 10px;
+}
+
+.posterBoxBottom {
+	position: absolute;
+	top: -2rem;
+    left: 0;
+    width: 482px;
+    height: 100%auto;
+    border-radius: 10px;
+}
+
+.exTitle2 {
+    position: absolute;
+    top: 38rem;
+    left: 1rem;
+    width: 482px;
+}
+
+.buyDate {
+	line-height: 50px;	
+	top: 10rem;
+	font-size: 20px;
+}
+
+.regDate {
+	line-height: 50px;
+	font-size: 20px;
+}
+
+.button1{
+    display: block;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 33rem;
+    line-height: 50px;
+    text-align: center;
+    background: #0000ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+}
+
+.price_wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.select_quanatity {
+  margin: 0 10px;
+}
+
+.select_item {
+    margin-top: 10px;
+    padding: 15px 0 10px 0;
+    border-top: 1px solid #eeeeee;
+}
+
+.selectBox {
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 13px 15px 15px 15px;
+  bottom:20rem;
+}
+
+.selectBox .selectbox_title {
+	
+  font-size: 20px;
+  color: #777;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.selectBox .time_btn,
+.selectBox .title1_btn,
+.selectBox .title2_btn {
+  margin-top: 5px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.selected {
+  background-color: #167e56;
+  color: #00ff40;
+  border-radius: 50%;
+}
+
+
+
+.reservationMain{
+	position: absolute;
+	width: 117rem;
+	height: rem;
+    margin-top: 2rem;
+    margin-bottom: 9.8rem;
+    margin-left: 1rem; 
+    left: 15rem;   
+}
+
+
+.title2_select {
+  bottom: 0;
+  right: 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0
+}

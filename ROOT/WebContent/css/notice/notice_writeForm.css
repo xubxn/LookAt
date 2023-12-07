@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#outer {width: 800px; margin: auto;}	
+#wrap {width: 780px; margin: 100px auto;}
+	
+h3 { border-bottom-style : solid; 
+		border-bottom-width : 2px;
+		border-bottom-color : black; 	
+		padding: 10px 20px 10px 20px;}
+ 
+#subBtn {
+    /* margin-top: 14px; */
+    /* margin-right: 20px; */
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid gray;
+    width: 7rem;
+    margin-left: 224px;
+    margin-top: 0px;
+}
+
+#subBtn2 {
+    /* margin-top: 14px; */
+    position: absolute;
+    /* margin-right: 20px; */
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid gray;
+    width: 7rem;
+    margin-left: 330px;
+    margin-top:21px;
+}
+
+.button {
+    position: relative;
+    bottom: -2rem;
+    left: 6rem;
+}

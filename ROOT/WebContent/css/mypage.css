@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+body {
+	margin : auto;
+	width: 1920px;
+}
+
+.navlink a:link, a:visited {
+	color: black;
+  	text-decoration: none;
+	}
+
+.leaveterms {
+	background-color: Gainsboro;
+}
+
+#myInfo{
+	padding : 20px;
+	margin-bottom:20px;
+}
+
+.container{
+	width:1920px;
+	padding : 20px;
+	margin : 0 auto;
+}
+
+.header{
+	padding : 20px;
+	margin-bottom:20px;
+}
+
+.left-sidebar{
+	width :150px;
+	float : left;
+	margin-bootom : 20px;
+	margin-right : 20px;
+}
+
+
+.contents {
+	float: left;
+	width : 900px;
+	padding : 20px;
+	
+	margin-bottom : 20px;
+}
+
+
+.footer {
+	clear : both;
+	padding : 20px;
+}

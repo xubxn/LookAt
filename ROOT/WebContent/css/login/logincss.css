@@ -1,0 +1,182 @@
+@charset "UTF-8";
+.logo {
+	padding-top: 40px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+
+.text  {
+	width: 410px;
+	height: 45px;
+	outline: none;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-color: #dcdcdc;
+	margin-top: 20px;
+	position: relative;
+}
+
+.divM {
+	text-align: center;
+	border: 1px solid #d2d2d2;
+	padding: 10px;
+	width: 470px;
+	height: 170px;
+	margin: auto;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: 3px 3px 3px #dcdcdc;
+	position: relative;
+}
+
+.login{
+	width: 490px;
+	height: 50px;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #d2d2d2;
+	background-color: white;
+	box-shadow: 2px 2px 2px 	#dcdcdc;
+	margin-top : 30px;
+	color : black;
+}
+
+.naver{
+	width: 490px;
+	height: 50px;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #63CC63;
+	background-color: white;
+	box-shadow: 2px 2px 2px 	#dcdcdc;
+	margin-top : 8px;
+	background-color : #63CC63;
+	color : white;
+}
+.kakao{
+	width: 490px;
+	height: 50px;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid 	#FFE13C;
+	background-color: white;
+	box-shadow: 2px 2px 2px 	#dcdcdc;
+	margin-top : 8px;
+	background-color : 	#FFE13C;
+	color : black;
+}
+
+
+.loginBtn {
+	text-align: center;
+	margin: auto;
+}
+
+
+.kakaoBtn {
+	text-align: center;
+	margin: auto;
+	border-radius: 20px 20px 20px 20px;
+}
+.naverBtn {
+	text-align: center;
+	margin: auto;
+	border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+.iddo{
+	background-color : white;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style:none;
+	color : black;
+	display:inline-block;
+}
+
+.pwdo{
+	background-color : white;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style:none;
+	color : black;
+	display:inline-block;
+}
+.joindo{
+	background-color : white;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style:none;
+	color : black;
+	display:inline-block;
+}
+.pw{
+	display:inline-block;
+	
+}
+
+.id{
+	display:inline-block;
+}
+
+.join{
+	display:inline-block;
+}
+
+.oneline{
+	text-align: center;
+	margin: auto;
+	padding-top : 20px;
+	
+}
+
+.roeldo{
+	background-color : white;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style:none;
+	color : black;
+	display:inline-block;
+}
+
+.memdo{
+	background-color : white;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style:none;
+	color : black;
+	display:inline-block;
+}
+.infodo{
+	background-color : white;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style:none;
+	color : black;
+	display:inline-block;
+}
+.role{
+	display:inline-block;
+	
+}
+
+
+.info{
+	display:inline-block;
+}
+
+.endline{
+	text-align: center;
+	margin: auto;
+	padding-top : 20px;
+	
+}
+

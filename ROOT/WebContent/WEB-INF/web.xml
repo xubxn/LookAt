@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>exhibition</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- DB 연동 관련 시작 -->
+  <listener>
+  	<listener-class>jdbc.DBCPInitListener</listener-class>
+  </listener>
+
+    <context-param>
+     <param-name>poolConfig</param-name>
+     <param-value>
+		jdbcdriver=com.mysql.cj.jdbc.Driver
+        jdbcUrl=jdbc:mysql://errorpassing.cxa1cmtvlx16.ap-northeast-2.rds.amazonaws.com:3306/LookAt?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=UTC
+        dbUser=ep
+        dbPass=ep123123
+        validationQuery=select 1
+        minIdle=3
+        maxTotal=30
+        poolName=exhi
+     </param-value>
+  </context-param>
+  <!-- DB 연동 관련 끝 -->
+  
+  <!-- MVC 컨트롤러 코드-->
+    <servlet>
+  		<servlet-name>ControllerUsingURI</servlet-name>
+  		<servlet-class>mvc.controller.ControllerUsingURI</servlet-class>
+  		
+  		<init-param>
+  			<param-name>configFile</param-name>
+  			<param-value>/WEB-INF/commandHandlerURI.properties</param-value>
+  		</init-param>
+  			<load-on-startup>1</load-on-startup>
+  	</servlet>
+  	
+	<servlet-mapping>
+  		<servlet-name>ControllerUsingURI</servlet-name>
+  		<url-pattern>*.do</url-pattern>
+	</servlet-mapping> 
+	
+	<!-- 세션 유휴시간 : 분단위 -->
+	<session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    
+    <!-- 로그인 필터 p.614 -->
+      <filter>
+    	<filter-name>LoginCheckFilter</filter-name>
+    	<filter-class>filter.LoginCheckFilter</filter-class>
+    </filter>
+    <filter-mapping>
+    	<filter-name>LoginCheckFilter</filter-name>
+    	<url-pattern>/myPageMain.do</url-pattern>
+    	<url-pattern>/Qlist.do</url-pattern>
+    	<url-pattern>/Qread.do</url-pattern>
+    	<url-pattern>/Qwrite.do</url-pattern>
+    	<url-pattern>/reserve.do</url-pattern>
+    	<url-pattern>/reviewWrite.do</url-pattern>
+    </filter-mapping>
+      <filter>
+    	<filter-name>AdminLoginCheckFilter</filter-name>
+    	<filter-class>filter.AdminLoginCheckFilter</filter-class>
+    </filter>
+    <filter-mapping>
+    	<filter-name>AdminLoginCheckFilter</filter-name>
+    	<url-pattern>/memberList.do</url-pattern>
+    	<url-pattern>/exhibitionList.do</url-pattern>
+    </filter-mapping>
+</web-app>
